@@ -27,28 +27,18 @@ if not exist "%OVERRIDES%" (
     for /d %%d in ("%TEMP_DIR%\*") do if exist "%%d\overrides" set "OVERRIDES=%%d\overrides"
 )
 
-echo [2/6] 下载模组...
+echo [2/6] 检查模组...
 if not exist "%ROOT%\mods" (
     echo.
-    echo 请手动下载模组包（约335 MB）：
+    echo 请从以下链接下载 mods.zip（约335 MB）：
     echo https://github.com/YuZhen203/NFWC-Server/releases/download/v1.0/mods.zip
     echo.
-    echo 下载完成后，解压到当前目录的 mods/ 文件夹，然后按任意键继续...
+    echo 下载后解压到 %ROOT%\mods 目录再重新运行本脚本。
     echo.
-    
-    :: 等待用户
-    pause >nul
-    
-    :: 检查是否已解压
-    if not exist "%ROOT%\mods" (
-        echo [!] 未找到 mods/ 文件夹，请确保已解压到正确位置
-        pause
-        exit /b 1
-    )
-    echo 模组已就绪
-) else (
-    echo mods/ 已存在，跳过下载
+    pause
+    exit /b 1
 )
+echo mods/ 已就绪
 
 :: 复制配置和脚本
 if exist "%ROOT%\config" rmdir /s /q "%ROOT%\config"
