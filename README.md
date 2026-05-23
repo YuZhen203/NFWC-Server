@@ -96,6 +96,36 @@ auto_setup.bat
 # 然后运行 auto_setup.bat 的第 6 步会自动应用
 ```
 
+
+---
+
+## 日常流程（仅更新存档）
+
+首次配置完成后（已跑过 `auto_setup.bat`），后续每天的操作很简单。
+
+### 玩完后提交存档
+
+```bash
+cd NFWC-Server
+:: 把当前世界复制到 repack 目录
+xcopy /e /i /q /y world repack\world
+:: 推送到 GitHub
+git add repack/
+git commit -m "更新存档"
+git push
+```
+
+### 新主机接手
+
+```bash
+cd NFWC-Server
+git pull
+:: 直接启动，mods/、config/、libraries/ 都在，不需要跑 auto_setup
+run.bat
+```
+
+> 前提：接手方的 `NFWC-Server/` 目录之前已经完整跑过一次 `auto_setup.bat`，`mods/`、`config/`、`libraries/` 等都已存在。如果是在一台从来没有建过服务器的电脑上接手，需要走完整的开服流程。
+
 ---
 
 ## 目录说明
