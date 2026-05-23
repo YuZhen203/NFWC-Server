@@ -45,74 +45,35 @@ if not exist "%OVERRIDES%" (
     )
 )
 
-echo [2/6] 复制模组、配置等...
-if exist "%ROOT%\mods" rmdir /s /q "%ROOT%\mods"
-xcopy /e /i /q "%OVERRIDES%\mods" "%ROOT%\mods" >nul
+echo [2/6] 复制模组...
 
+:: 从本地 PCL 安装复制完整模组（所有朋友都运行过整合包，都有这些文件）
+set "PCL_DIR=%ROOT%\..\.minecraft\versions\No Flesh Within Chest"
+if exist "F:\MC\.minecraft\versions\No Flesh Within Chest\mods" (
+    set "MODS_SRC=F:\MC\.minecraft\versions\No Flesh Within Chest\mods"
+) else if exist "%PCL_DIR%\mods" (
+    set "MODS_SRC=%PCL_DIR%\mods"
+) else (
+    echo [!] 未找到 PCL 模组目录！
+    echo     请将 .minecraft 下整合包的 mods 文件夹复制到 %ROOT%\
+    pause
+    exit /b 1
+)
+
+if exist "%ROOT%\mods" rmdir /s /q "%ROOT%\mods"
+xcopy /e /i /q /y "!MODS_SRC!" "%ROOT%\mods" >nul
+echo 模组已复制
+
+:: 复制配置文件
 if exist "%ROOT%\config" rmdir /s /q "%ROOT%\config"
-xcopy /e /i /q "%OVERRIDES%\config" "%ROOT%\config" >nul
+xcopy /e /i /q /y "%OVERRIDES%\config" "%ROOT%\config" >nul
 
 if exist "%ROOT%\kubejs" rmdir /s /q "%ROOT%\kubejs"
-xcopy /e /i /q "%OVERRIDES%\kubejs" "%ROOT%\kubejs" >nul
+xcopy /e /i /q /y "%OVERRIDES%\kubejs" "%ROOT%\kubejs" >nul
 
 if exist "%ROOT%\defaultconfigs" rmdir /s /q "%ROOT%\defaultconfigs"
-xcopy /e /i /q "%OVERRIDES%\defaultconfigs" "%ROOT%\defaultconfigs" >nul
+xcopy /e /i /q /y "%OVERRIDES%\defaultconfigs" "%ROOT%\defaultconfigs" >nul
 
-echo [3/6] 删除客户端模组...
-del "%ROOT%\mods\RuOK-*.jar" 2>nul
-del "%ROOT%\mods\oculus-mc*.jar" 2>nul
-del "%ROOT%\mods\oculus-flywheel-compat*.jar" 2>nul
-del "%ROOT%\mods\embeddium-*.jar" 2>nul
-del "%ROOT%\mods\entityculling-*.jar" 2>nul
-del "%ROOT%\mods\inventoryhud*.jar" 2>nul
-del "%ROOT%\mods\skinlayers3d*.jar" 2>nul
-del "%ROOT%\mods\dynamiclightsreforged*.jar" 2>nul
-del "%ROOT%\mods\drippyloadingscreen*.jar" 2>nul
-del "%ROOT%\mods\fancymenu_*.jar" 2>nul
-del "%ROOT%\mods\Controlling-*.jar" 2>nul
-del "%ROOT%\mods\BetterAdvancements-*.jar" 2>nul
-del "%ROOT%\mods\InventoryProfilesNext-*.jar" 2>nul
-del "%ROOT%\mods\ItemBorders-*.jar" 2>nul
-del "%ROOT%\mods\OverflowingBars-*.jar" 2>nul
-del "%ROOT%\mods\TravelersTitles-*.jar" 2>nul
-del "%ROOT%\mods\EnchantmentDescriptions-*.jar" 2>nul
-del "%ROOT%\mods\appleskin-*.jar" 2>nul
-del "%ROOT%\mods\LegendaryTooltips-*.jar" 2>nul
-del "%ROOT%\mods\jei-*.jar" 2>nul
-del "%ROOT%\mods\emi-*.jar" 2>nul
-del "%ROOT%\mods\emi_loot*.jar" 2>nul
-del "%ROOT%\mods\Jade-*.jar" 2>nul
-del "%ROOT%\mods\Iceberg-*.jar" 2>nul
-del "%ROOT%\mods\CosmeticArmorReworked*.jar" 2>nul
-del "%ROOT%\mods\lazydfu*.jar" 2>nul
-del "%ROOT%\mods\jecharacters*.jar" 2>nul
-del "%ROOT%\mods\konkrete_*.jar" 2>nul
-del "%ROOT%\mods\melody_*.jar" 2>nul
-del "%ROOT%\mods\lightspeed-*.jar" 2>nul
-del "%ROOT%\mods\MyServerIsCompatible*.jar" 2>nul
-
-echo [4/6] 删除客户端 KubeJS 脚本...
-del /s /q "%ROOT%\kubejs\client_scripts\*.js" 2>nul
-del "%ROOT%\kubejs\startup_scripts\client_init.js" 2>nul
-del "%ROOT%\kubejs\startup_scripts\key_bind_register.js" 2>nul
-
-echo [5/6] 下载安装 Forge 43.3.5...
-set "FORGE_URL=https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.3.5/forge-1.19.2-43.3.5-installer.jar"
-set "FORGE_JAR=%ROOT%\forge-installer.jar"
-
-if not exist "%FORGE_JAR%" (
-    echo 正在下载 Forge 安装器...
-    powershell -Command "Invoke-WebRequest -Uri '%FORGE_URL%' -OutFile '%FORGE_JAR%'" 2>nul
-)
-
-if not exist "%ROOT%\server.jar" (
-    echo 正在下载 Minecraft 服务端...
-    powershell -Command "Invoke-WebRequest -Uri 'https://piston-data.mojang.com/v1/objects/f69c284232d7c7580bd89a5a4931c3581eae1378/server.jar' -OutFile '%ROOT%\server.jar'" 2>nul
-)
-
-echo 正在安装 Forge...
-java -jar "%FORGE_JAR%" --installServer
-if errorlevel 1 (
     echo [!] Forge 安装失败，请检查 Java 17 是否正确配置
     pause
     exit /b 1
