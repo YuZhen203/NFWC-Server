@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "6602c6f52dd43f8b945b6cedc733f4c3"
+	name: "FunnyPocket"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

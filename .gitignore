@@ -1,0 +1,22 @@
+# 运行时文件（不需要提交）
+libraries/
+forge-installer.jar
+forge-installer.jar.log
+server.jar
+_vanilla_server.jar
+run.bat
+run.sh
+user_jvm_args.txt
+eula.txt
+logs/
+crash-reports/
+versions/
+*_jar_backup/
+
+# 整合包源文件（每个人都自己备着）
+*.zip
+*.7z
+
+# 操作系统
+*.DS_Store
+Thumbs.db

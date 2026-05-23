@@ -1,0 +1,8 @@
+
+["Server configs"]
+	#The number of slots in a decorated pot (Default [9])
+	#Range: 1 ~ 9
+	slots = 9
+	#Defines whether or not the Cherry Grove biome should generate in the world (Default [true])
+	generate = true
+
