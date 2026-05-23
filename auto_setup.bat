@@ -75,7 +75,7 @@ del "%ROOT%\mods\emi-*.jar" 2>nul
 del "%ROOT%\mods\emi_loot*.jar" 2>nul
 del "%ROOT%\mods\Jade-*.jar" 2>nul
 del "%ROOT%\mods\Iceberg-*.jar" 2>nul
-del "%ROOT%\mods\CosmeticArmorReworked*.jar" 2>nul
+:: del "%ROOT%\mods\CosmeticArmorReworked*.jar" 2>nul  &rem 需要保留，客户端连接需要
 del "%ROOT%\mods\lazydfu*.jar" 2>nul
 del "%ROOT%\mods\jecharacters*.jar" 2>nul
 del "%ROOT%\mods\konkrete_*.jar" 2>nul
