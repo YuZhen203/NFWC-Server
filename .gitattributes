@@ -1,0 +1,16 @@
+# 确保 bat 文件使用 CRLF 换行符
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# 其他文本文件保持默认
+*.md text
+*.json text
+*.txt text
+*.yml text
+
+# 二进制文件
+*.jar binary
+*.png binary
+*.dat binary
+*.mca binary
+*.nbt binary
