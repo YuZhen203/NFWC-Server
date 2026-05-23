@@ -28,16 +28,24 @@ if not exist "%OVERRIDES%" (
 )
 
 echo [2/6] 下载模组...
-set "MODS_URL=https://github.com/YuZhen203/NFWC-Server/releases/download/v1.0/mods.zip"
-set "MODS_ZIP=%ROOT%\_mods_temp.zip"
 if not exist "%ROOT%\mods" (
-    echo 正在下载模组包（约335 MB）...
-    powershell -Command "Invoke-WebRequest -Uri '%MODS_URL%' -OutFile '%MODS_ZIP%'" 2>nul
-    if not exist "%MODS_ZIP%" ( echo [!] 下载失败 & pause & exit /b 1 )
-    echo 正在解压...
-    powershell -Command "Expand-Archive -Path '%MODS_ZIP%' -DestinationPath '%ROOT%\mods' -Force" 2>nul
-    del "%MODS_ZIP%"
-    echo 模组安装完成
+    echo.
+    echo 请手动下载模组包（约335 MB）：
+    echo https://github.com/YuZhen203/NFWC-Server/releases/download/v1.0/mods.zip
+    echo.
+    echo 下载完成后，解压到当前目录的 mods/ 文件夹，然后按任意键继续...
+    echo.
+    
+    :: 等待用户
+    pause >nul
+    
+    :: 检查是否已解压
+    if not exist "%ROOT%\mods" (
+        echo [!] 未找到 mods/ 文件夹，请确保已解压到正确位置
+        pause
+        exit /b 1
+    )
+    echo 模组已就绪
 ) else (
     echo mods/ 已存在，跳过下载
 )
