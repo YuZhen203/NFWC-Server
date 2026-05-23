@@ -45,26 +45,31 @@ if not exist "%OVERRIDES%" (
     )
 )
 
-echo [2/6] 复制模组...
+echo [2/6] 下载模组...
 
-:: 从本地 PCL 安装复制完整模组（所有朋友都运行过整合包，都有这些文件）
-set "PCL_DIR=%ROOT%\..\.minecraft\versions\No Flesh Within Chest"
-if exist "F:\MC\.minecraft\versions\No Flesh Within Chest\mods" (
-    set "MODS_SRC=F:\MC\.minecraft\versions\No Flesh Within Chest\mods"
-) else if exist "%PCL_DIR%\mods" (
-    set "MODS_SRC=%PCL_DIR%\mods"
+:: 从 GitHub Release 下载整理好的模组包（143 个模组，已删掉客户端模组）
+set "MODS_URL=https://github.com/YuZhen203/NFWC-Server/releases/download/v1.0/mods.zip"
+set "MODS_ZIP=%ROOT%\_mods_temp.zip"
+
+if not exist "%ROOT%\mods" (
+    echo 正在下载模组包（约 335 MB）...
+    powershell -Command "Invoke-WebRequest -Uri '%MODS_URL%' -OutFile '%MODS_ZIP%'" 2>nul
+    
+    if not exist "%MODS_ZIP%" (
+        echo [!] 模组下载失败，请检查网络连接
+        pause
+        exit /b 1
+    )
+    
+    echo 正在解压模组...
+    powershell -Command "Expand-Archive -Path '%MODS_ZIP%' -DestinationPath '%ROOT%\mods' -Force" 2>nul
+    del "%MODS_ZIP%"
+    echo 模组安装完成
 ) else (
-    echo [!] 未找到 PCL 模组目录！
-    echo     请将 .minecraft 下整合包的 mods 文件夹复制到 %ROOT%\
-    pause
-    exit /b 1
+    echo mods/ 已存在，跳过下载
 )
 
-if exist "%ROOT%\mods" rmdir /s /q "%ROOT%\mods"
-xcopy /e /i /q /y "!MODS_SRC!" "%ROOT%\mods" >nul
-echo 模组已复制
-
-:: 复制配置文件
+:: 复制配置文件:: 复制配置文件
 if exist "%ROOT%\config" rmdir /s /q "%ROOT%\config"
 xcopy /e /i /q /y "%OVERRIDES%\config" "%ROOT%\config" >nul
 
