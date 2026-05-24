@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/digesting/nutrient_paste_from_digesting_cocoa_beans": {
+    "criteria": {
+      "has_cocoa_beans": "2026-05-24 21:48:35 +0800"
+    },
+    "done": true
+  },
   "create:recipes/create.base/blasting/zinc_ingot_from_raw_ore": {
     "criteria": {
       "has_item": "2026-05-23 23:01:26 +0800"
@@ -47,15 +53,21 @@
     },
     "done": true
   },
-  "create:recipes/create.base/crafting/appliances/copper_backtank": {
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_boat_from_dark_oak_planks_woodcutting": {
     "criteria": {
-      "has_item": "2026-05-23 22:12:11 +0800"
+      "give_recipe": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/jungle/blue": {
+  "create:recipes/create.palettes/cut_andesite_slab_from_stone_types_andesite_stonecutting": {
     "criteria": {
-      "money": "2026-05-23 21:52:24 +0800"
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2026-05-23 22:12:11 +0800"
     },
     "done": true
   },
@@ -68,6 +80,12 @@
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/acacia/gray": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/jungle/blue": {
+    "criteria": {
+      "money": "2026-05-23 21:52:24 +0800"
     },
     "done": true
   },
@@ -95,9 +113,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+  "mcwbridges:recipes/andesite_bridge_stair": {
     "criteria": {
-      "has_sand": "2026-05-23 23:00:47 +0800"
+      "has_planks": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -113,6 +131,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-05-23 23:00:47 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2026-05-23 22:05:55 +0800"
@@ -125,15 +149,15 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/spruce_spice_rack": {
-    "criteria": {
-      "spruce_spice_rack": "2026-05-23 23:40:50 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/blue": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/spruce_spice_rack": {
+    "criteria": {
+      "spruce_spice_rack": "2026-05-23 23:40:50 +0800"
     },
     "done": true
   },
@@ -149,9 +173,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/misc/mortar/bone_meal": {
+    "criteria": {
+      "Recipes": "2026-05-24 20:57:29 +0800"
     },
     "done": true
   },
@@ -161,9 +197,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ladder": {
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/gold_backpack": {
     "criteria": {
-      "has_stick": "2026-05-23 21:41:00 +0800"
+      "has_iron_backpack": "2026-05-24 22:09:06 +0800"
     },
     "done": true
   },
@@ -173,9 +209,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-05-23 21:41:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/slot_machine": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_sign_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -209,15 +263,15 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_gray": {
-    "criteria": {
-      "gray_bow": "2026-05-23 23:04:30 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/vending_machine/dye_pink": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_gray": {
+    "criteria": {
+      "gray_bow": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
@@ -227,15 +281,15 @@
     },
     "done": true
   },
-  "biomancy:recipes/biomancy/bio_forging/string_from_bio_forging": {
-    "criteria": {
-      "has_string": "2026-05-23 22:46:44 +0800"
-    },
-    "done": true
-  },
   "tetra:spelunking/root": {
     "criteria": {
       "spelunking": "2026-05-23 21:53:11 +0800"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/bio_forging/string_from_bio_forging": {
+    "criteria": {
+      "has_string": "2026-05-23 22:46:44 +0800"
     },
     "done": true
   },
@@ -245,15 +299,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2026-05-23 23:40:50 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/misc/tax_block": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-23 23:40:50 +0800"
     },
     "done": true
   },
@@ -272,6 +326,12 @@
   "biomancy:recipes/biomancy/digesting/nutrient_paste_from_digesting_superb_food": {
     "criteria": {
       "has_food": "2026-05-23 21:31:33 +0800"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/bio_forging/leather_from_bio_forging": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
     },
     "done": true
   },
@@ -317,15 +377,27 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/warped/black": {
+  "minecraft:recipes/woodcutting/jungle/jungle_fence_from_jungle_slab_woodcutting": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
   "mcwbridges:recipes/cobblestone_bridge": {
     "criteria": {
       "has_planks": "2026-05-23 21:42:16 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/warped/black": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -341,15 +413,15 @@
     },
     "done": true
   },
-  "twilightforest:recipes/twilightforest/wood/oak_banister": {
-    "criteria": {
-      "has_item": "2026-05-24 00:08:17 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/wallet/upgrade_wallet_iron_to_wallet_netherite": {
     "criteria": {
       "coin": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2026-05-24 00:08:17 +0800"
     },
     "done": true
   },
@@ -413,6 +485,12 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/cod_decomposing": {
+    "criteria": {
+      "has_cod": "2026-05-24 20:00:38 +0800"
+    },
+    "done": true
+  },
   "biomancy:recipes/biomancy/decomposing/gold_ingot_decomposing": {
     "criteria": {
       "has_gold_ingot": "2026-05-23 23:20:56 +0800"
@@ -425,15 +503,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
-    "criteria": {
-      "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/bookshelf/warped": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
     },
     "done": true
   },
@@ -461,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_sand": "2026-05-23 23:00:47 +0800"
@@ -479,9 +563,21 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_andesite_bricks_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2026-05-23 22:05:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -497,6 +593,18 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.aesthetic/birch_spice_rack_full": {
+    "criteria": {
+      "birch_spice_rack_full": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/orange": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/logistics/pulse_repeater": {
     "criteria": {
       "has_item": "2026-05-23 21:53:42 +0800"
@@ -506,12 +614,6 @@
   "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
-    },
-    "done": true
-  },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/orange": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -539,6 +641,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/orange": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -557,6 +665,12 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/apple_decomposing": {
+    "criteria": {
+      "has_apple": "2026-05-24 21:22:52 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/wallet/upgrade_wallet_gold_to_wallet_netherite": {
     "criteria": {
       "coin": "2026-05-23 21:52:23 +0800"
@@ -569,9 +683,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2026-05-24 20:37:09 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinpile_emerald_from_block": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/jungle_spice_rack": {
+    "criteria": {
+      "jungle_spice_rack": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
@@ -587,15 +713,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-23 21:33:25 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.machines/coin_jar/piggy_bank": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_planks_woodcutting": {
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
     "criteria": {
-      "give_recipe": "2026-05-23 21:33:25 +0800"
+      "has_boat": "2026-05-24 20:21:39 +0800"
     },
     "done": true
   },
@@ -611,10 +743,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/barrel_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2026-05-23 22:12:07 +0800",
-      "opened_chest": "2026-05-23 22:05:43 +0800"
+      "opened_chest": "2026-05-23 22:05:43 +0800",
+      "opened_cart": "2026-05-24 20:28:48 +0800"
     },
     "done": false
   },
@@ -642,9 +781,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
+  "biomancy:recipes/biomancy/decomposing/cocoa_beans_decomposing": {
     "criteria": {
-      "has_beef": "2026-05-23 22:31:55 +0800"
+      "has_cocoa_beans": "2026-05-24 21:48:35 +0800"
     },
     "done": true
   },
@@ -654,9 +793,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2026-05-23 22:31:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2026-05-24 00:19:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2026-05-24 21:08:08 +0800"
     },
     "done": true
   },
@@ -666,9 +817,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2026-05-23 22:12:22 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_fence_gate_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -702,6 +865,24 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_andesite_brick_wall_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_fence_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_stairs_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/jungle/black": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -714,9 +895,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2026-05-23 21:38:09 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/white": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -732,9 +925,9 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/white": {
+  "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_planks": "2026-05-23 21:33:25 +0800"
     },
     "done": true
   },
@@ -744,21 +937,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_slab": {
-    "criteria": {
-      "has_planks": "2026-05-23 21:33:25 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/bookshelf/jungle": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-05-24 21:46:41 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/acacia/pink": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2026-05-24 20:37:09 +0800"
     },
     "done": true
   },
@@ -773,6 +972,12 @@
       "has_brown_mushroom": "2026-05-23 21:34:04 +0800"
     },
     "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_birch": "2026-05-24 22:22:46 +0800"
+    },
+    "done": false
   },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/spruce/cyan": {
     "criteria": {
@@ -798,15 +1003,21 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/warped/green": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.items/egg_in_the_basket": {
     "criteria": {
       "egg_basket": "2026-05-23 22:05:17 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/warped/green": {
+  "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_glass": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -847,21 +1058,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "biomancy:recipes/biomancy/decomposing/rotten_flesh_decomposing": {
     "criteria": {
       "has_rotten_flesh": "2026-05-23 21:50:22 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinpile_copper_from_coin": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/oak_bridge_pier": {
     "criteria": {
       "has_planks": "2026-05-23 21:32:19 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinpile_copper_from_coin": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -895,9 +1112,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/fried_egg": {
     "criteria": {
       "fried_egg": "2026-05-23 22:05:17 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/andesite_alloy": {
+    "criteria": {
+      "has_item": "2026-05-23 22:05:56 +0800"
     },
     "done": true
   },
@@ -907,9 +1136,9 @@
     },
     "done": true
   },
-  "create:recipes/create.base/crafting/materials/andesite_alloy": {
+  "minecraft:recipes/woodcutting/birch/birch_button_from_birch_planks_woodcutting": {
     "criteria": {
-      "has_item": "2026-05-23 22:05:56 +0800"
+      "give_recipe": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -961,9 +1190,27 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/carrot_decomposing": {
+    "criteria": {
+      "has_carrot": "2026-05-24 19:46:18 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/spruce/barrel_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2026-05-23 23:40:50 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dark_oak_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_trapdoor_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
     },
     "done": true
   },
@@ -979,6 +1226,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/jungle/jungle_planks_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/lime": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -991,9 +1244,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/barrel_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2026-05-23 22:05:55 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/birch_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -1021,15 +1286,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/oak/oak_stairs_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-23 21:33:25 +0800"
+    },
+    "done": true
+  },
   "biomancy:recipes/biomancy/decomposing/golden_apple_decomposing": {
     "criteria": {
       "has_golden_apple": "2026-05-23 23:20:59 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/oak/oak_stairs_from_oak_planks_woodcutting": {
+  "mcwbridges:recipes/rope_dark_oak_bridge": {
     "criteria": {
-      "give_recipe": "2026-05-23 21:33:25 +0800"
+      "has_planks": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -1069,9 +1340,27 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/upgrade_base": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/purple": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2026-05-23 21:33:25 +0800"
     },
     "done": true
   },
@@ -1081,9 +1370,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_sign": {
+  "extradelight:recipes/extradelight.items/chocolate_cheesecake": {
     "criteria": {
-      "has_planks": "2026-05-23 21:33:25 +0800"
+      "has_any_ingredient": "2026-05-24 21:48:35 +0800"
     },
     "done": true
   },
@@ -1111,9 +1400,21 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2026-05-24 20:57:29 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/lime": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.items/offset_spatula_iron": {
+    "criteria": {
+      "Recipes": "2026-05-23 22:05:55 +0800"
     },
     "done": true
   },
@@ -1123,9 +1424,9 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.items/offset_spatula_iron": {
+  "mcwbridges:recipes/birch_rail_bridge": {
     "criteria": {
-      "Recipes": "2026-05-23 22:05:55 +0800"
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -1138,6 +1439,12 @@
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_sand": "2026-05-23 23:00:47 +0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/backpack": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
     },
     "done": true
   },
@@ -1159,9 +1466,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/crafting_table_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2026-05-23 23:20:56 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_andesite_bricks_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -1186,6 +1505,12 @@
   "biomancy:recipes/biomancy/decomposing/forge_eggs_decomposing": {
     "criteria": {
       "has_eggs": "2026-05-23 22:05:17 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.items/apple_to_block": {
+    "criteria": {
+      "Recipes": "2026-05-24 21:22:52 +0800"
     },
     "done": true
   },
@@ -1243,9 +1568,9 @@
     },
     "done": true
   },
-  "mcwbridges:recipes/balustrade_stone_bricks_bridge": {
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
-      "has_planks": "2026-05-24 00:19:13 +0800"
+      "has_the_recipe": "2026-05-23 23:05:35 +0800"
     },
     "done": true
   },
@@ -1255,9 +1580,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+  "mcwbridges:recipes/balustrade_stone_bricks_bridge": {
     "criteria": {
-      "has_the_recipe": "2026-05-23 23:05:35 +0800"
+      "has_planks": "2026-05-24 00:19:13 +0800"
     },
     "done": true
   },
@@ -1267,15 +1592,45 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/tree_fertilizer": {
+    "criteria": {
+      "has_item": "2026-05-24 20:57:29 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_wall_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_slab_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/magenta": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -1291,21 +1646,27 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/cinnamon_step_stool": {
-    "criteria": {
-      "cinnamon_step_stool": "2026-05-23 21:41:00 +0800"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/farmersdelight/cooking/pumpkin_soup": {
     "criteria": {
       "has_any_ingredient": "2026-05-23 21:38:09 +0800"
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.aesthetic/cinnamon_step_stool": {
+    "criteria": {
+      "cinnamon_step_stool": "2026-05-23 21:41:00 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "salmon": "2026-05-23 22:03:27 +0800"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/digesting/nutrient_paste_from_digesting_poor_food": {
+    "criteria": {
+      "has_food": "2026-05-23 21:31:33 +0800"
     },
     "done": true
   },
@@ -1321,12 +1682,6 @@
     },
     "done": true
   },
-  "biomancy:recipes/biomancy/digesting/nutrient_paste_from_digesting_poor_food": {
-    "criteria": {
-      "has_food": "2026-05-23 21:31:33 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2026-05-23 23:40:50 +0800"
@@ -1339,15 +1694,15 @@
     },
     "done": true
   },
-  "tetra:recipes/planks": {
-    "criteria": {
-      "got_wood": "2026-05-23 21:33:25 +0800"
-    },
-    "done": true
-  },
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2026-05-23 21:31:33 +0800"
+    },
+    "done": true
+  },
+  "tetra:recipes/planks": {
+    "criteria": {
+      "got_wood": "2026-05-23 21:33:25 +0800"
     },
     "done": true
   },
@@ -1369,15 +1724,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lantern": {
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
     "criteria": {
-      "has_iron_ingot": "2026-05-23 22:05:55 +0800"
+      "has_cod": "2026-05-24 20:00:38 +0800"
     },
     "done": true
   },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/dark_oak/white": {
     "criteria": {
       "money": "2026-05-23 21:52:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-23 22:05:55 +0800"
     },
     "done": true
   },
@@ -1405,17 +1766,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-23 21:33:25 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.items/mint_lamb_feast": {
     "criteria": {
       "has_any_ingredient": "2026-05-23 23:04:31 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_planks_woodcutting": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "give_recipe": "2026-05-23 21:33:25 +0800"
+      "minecraft:nether_wastes": "2026-05-24 20:18:00 +0800",
+      "minecraft:soul_sand_valley": "2026-05-24 20:17:44 +0800"
     },
-    "done": true
+    "done": false
   },
   "create:recipes/create.palettes/small_tuff_brick_stairs_from_stone_types_tuff_stonecutting": {
     "criteria": {
@@ -1465,6 +1833,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/jungle/jungle_boat_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
@@ -1483,6 +1857,18 @@
     },
     "done": true
   },
+  "extradelight:recipes/farmersdelight/chocolate_pie": {
+    "criteria": {
+      "chocolate_pie": "2026-05-24 21:48:35 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2026-05-24 21:48:35 +0800"
+    },
+    "done": true
+  },
   "modulargolems:recipes/modulargolems.golems/roman_guard_shinguard": {
     "criteria": {
       "has_iron_ingot": "2026-05-23 22:05:56 +0800"
@@ -1492,6 +1878,12 @@
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2026-05-23 23:04:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2026-05-24 19:33:12 +0800"
     },
     "done": true
   },
@@ -1519,6 +1911,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/crafting_table_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "modulargolems:recipes/modulargolems.golems/wind_spirit_shinguard": {
     "criteria": {
       "has_diamond": "2026-05-24 00:22:54 +0800"
@@ -1537,6 +1935,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_andesite_brick_stairs_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "createoreexcavation:recipes/createoreexcavation.tab/drill": {
     "criteria": {
       "iron": "2026-05-23 22:05:56 +0800"
@@ -1546,6 +1950,12 @@
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/birch_spice_rack": {
+    "criteria": {
+      "birch_spice_rack": "2026-05-24 22:04:44 +0800"
     },
     "done": true
   },
@@ -1561,9 +1971,21 @@
     },
     "done": true
   },
+  "biomebackport:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2026-05-24 20:21:39 +0800"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/food/cooking/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2026-05-23 22:47:16 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 19:46:18 +0800"
     },
     "done": true
   },
@@ -1573,9 +1995,9 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.coins/wallet/wallet_netherite": {
+  "create:recipes/create.palettes/horizontal_framed_glass_from_glass_colorless_stonecutting": {
     "criteria": {
-      "coin": "2026-05-23 21:52:23 +0800"
+      "has_glass_colorless": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -1585,9 +2007,21 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/lightmanscurrency.coins/wallet/wallet_netherite": {
+    "criteria": {
+      "coin": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinblock_copper_from_pile": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/farmersdelight/apple_pie": {
+    "criteria": {
+      "apple_pie": "2026-05-24 21:22:52 +0800"
     },
     "done": true
   },
@@ -1597,9 +2031,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/birch_stairs_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_slab_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2026-05-24 00:19:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-05-24 20:17:43 +0800"
     },
     "done": true
   },
@@ -1657,15 +2109,15 @@
     },
     "done": true
   },
-  "create:recipes/create.base/crafting/kinetics/fluid_valve": {
-    "criteria": {
-      "has_item": "2026-05-23 22:12:11 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/jungle/red": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2026-05-23 22:12:11 +0800"
     },
     "done": true
   },
@@ -1705,9 +2157,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_wool": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2026-05-24 20:57:29 +0800"
     },
     "done": true
   },
@@ -1777,6 +2241,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2026-05-23 22:19:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2026-05-23 23:20:56 +0800"
@@ -1789,27 +2259,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2026-05-23 22:19:10 +0800"
-    },
-    "done": true
-  },
   "biomancy:recipes/biomancy/digesting/nutrient_paste_from_digesting_seeds": {
     "criteria": {
       "has_seeds": "2026-05-23 22:05:00 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/gray": {
+  "minecraft:recipes/woodcutting/birch/birch_fence_from_birch_planks_woodcutting": {
     "criteria": {
-      "money": "2026-05-23 21:52:24 +0800"
+      "give_recipe": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2026-05-23 21:41:00 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/gray": {
+    "criteria": {
+      "money": "2026-05-23 21:52:24 +0800"
     },
     "done": true
   },
@@ -1825,15 +2295,15 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/spruce/green": {
-    "criteria": {
-      "money": "2026-05-23 21:52:24 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/shelf2/mangrove": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/spruce/green": {
+    "criteria": {
+      "money": "2026-05-23 21:52:24 +0800"
     },
     "done": true
   },
@@ -1843,15 +2313,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
-    "criteria": {
-      "has_stone_bricks": "2026-05-24 00:19:13 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/purple": {
     "criteria": {
       "money": "2026-05-23 21:52:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2026-05-24 00:19:13 +0800"
     },
     "done": true
   },
@@ -1885,6 +2355,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/birch_sign_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.items/stone_spoon": {
     "criteria": {
       "Recipes": "2026-05-23 23:00:47 +0800"
@@ -1897,9 +2373,9 @@
     },
     "done": true
   },
-  "geodes:recipes/building_blocks/emerald_crystal_block": {
+  "minecraft:recipes/woodcutting/dark_oak/chest_from_dark_oak_planks_woodcutting": {
     "criteria": {
-      "has_emerald": "2026-05-23 23:05:18 +0800"
+      "give_recipe": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -1909,9 +2385,21 @@
     },
     "done": true
   },
+  "geodes:recipes/building_blocks/emerald_crystal_block": {
+    "criteria": {
+      "has_emerald": "2026-05-23 23:05:18 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.aesthetic/ribbon_bow_light_gray": {
     "criteria": {
       "light_gray_bow": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/farmersdelight/apple_pie_jam": {
+    "criteria": {
+      "apple_pie": "2026-05-24 21:22:52 +0800"
     },
     "done": true
   },
@@ -1933,15 +2421,15 @@
     },
     "done": true
   },
-  "modulargolems:recipes/modulargolems.golems/diamond_golem_spear": {
-    "criteria": {
-      "has_diamond": "2026-05-24 00:22:54 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_sand": "2026-05-23 23:00:47 +0800"
+    },
+    "done": true
+  },
+  "modulargolems:recipes/modulargolems.golems/diamond_golem_spear": {
+    "criteria": {
+      "has_diamond": "2026-05-24 00:22:54 +0800"
     },
     "done": true
   },
@@ -1951,15 +2439,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_shovel": {
-    "criteria": {
-      "has_gold_ingot": "2026-05-23 23:20:56 +0800"
-    },
-    "done": true
-  },
   "create:recipes/create.palettes/crafting/kinetics/white_seat": {
     "criteria": {
       "has_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-05-23 23:20:56 +0800"
     },
     "done": true
   },
@@ -1987,6 +2475,12 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/andesite_bridge": {
+    "criteria": {
+      "has_planks": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinpile_gold_from_block": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -2005,9 +2499,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/birch_door_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2026-05-23 21:42:16 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_pressure_plate_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
@@ -2029,15 +2535,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-05-23 21:32:19 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/oak/oak_boat_from_oak_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2026-05-24 00:08:17 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/misc/charcoal": {
+  "minecraft:recipes/building_blocks/andesite_stairs": {
     "criteria": {
-      "has_log": "2026-05-23 21:32:19 +0800"
+      "has_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -2077,6 +2589,12 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/lightmanscurrency.coins/wallet/upgrade_wallet_gold_to_wallet_diamond": {
+    "criteria": {
+      "coin": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2026-05-23 21:53:42 +0800"
@@ -2086,12 +2604,6 @@
   "minecraft:recipes/building_blocks/stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2026-05-24 00:19:13 +0800"
-    },
-    "done": true
-  },
-  "lightmanscurrency:recipes/lightmanscurrency.coins/wallet/upgrade_wallet_gold_to_wallet_diamond": {
-    "criteria": {
-      "coin": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -2125,15 +2637,27 @@
     },
     "done": true
   },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2026-05-23 22:31:48 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2026-05-23 23:00:47 +0800"
     },
     "done": true
   },
-  "lootr:10loot": {
+  "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
-      "loot_stat": "2026-05-23 22:31:48 +0800"
+      "has_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.items/pestle_andesite": {
+    "criteria": {
+      "Recipes": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -2167,6 +2691,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_planks_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2026-05-23 23:40:50 +0800"
@@ -2185,15 +2715,21 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/pink": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2026-05-23 22:03:28 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/pink": {
+  "farmersdelight:main/root": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "seeds": "2026-05-23 21:31:33 +0800"
     },
     "done": true
   },
@@ -2203,9 +2739,9 @@
     },
     "done": true
   },
-  "farmersdelight:main/root": {
+  "minecraft:recipes/decorations/item_frame": {
     "criteria": {
-      "seeds": "2026-05-23 21:31:33 +0800"
+      "has_leather": "2026-05-24 20:58:39 +0800"
     },
     "done": true
   },
@@ -2236,6 +2772,12 @@
   "cold_sweat:boiler_icebox": {
     "criteria": {
       "has_item": "2026-05-23 22:44:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-05-24 20:17:43 +0800"
     },
     "done": true
   },
@@ -2305,6 +2847,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2026-05-24 21:43:25 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/orange": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -2347,6 +2901,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_door_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_pressure_plate_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/ticket_machine/ticket_station/golden_ticket_pass": {
     "criteria": {
       "ticket_material": "2026-05-23 23:20:56 +0800"
@@ -2371,15 +2937,21 @@
     },
     "done": true
   },
-  "lootr:1barrel": {
+  "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
-      "opened_barrel": "2026-05-23 22:12:07 +0800"
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/jungle/orange": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-05-23 22:12:07 +0800"
     },
     "done": true
   },
@@ -2413,9 +2985,9 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/white": {
+  "farmersdelight:recipes/farmersdelight/roast_chicken_block": {
     "criteria": {
-      "money": "2026-05-23 21:52:24 +0800"
+      "has_cooked_chicken": "2026-05-24 22:15:08 +0800"
     },
     "done": true
   },
@@ -2425,15 +2997,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_axe": {
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/white": {
     "criteria": {
-      "has_stick": "2026-05-23 21:41:00 +0800"
+      "money": "2026-05-23 21:52:24 +0800"
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.items/offset_spatula_diamond": {
+  "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
-      "Recipes": "2026-05-24 00:22:54 +0800"
+      "has_stick": "2026-05-23 21:41:00 +0800"
     },
     "done": true
   },
@@ -2443,21 +3015,39 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.items/offset_spatula_diamond": {
+    "criteria": {
+      "Recipes": "2026-05-24 00:22:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_stairs_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/warped/yellow": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
-  "dungeons_arise:find_small_blimp": {
+  "extradelight:recipes/extradelight.items/mortar/cooking_oil": {
     "criteria": {
-      "location0": "2026-05-23 23:37:40 +0800"
+      "Recipes": "2026-05-24 19:44:56 +0800"
     },
     "done": true
   },
   "create:recipes/create.palettes/crafting/kinetics/gray_seat": {
     "criteria": {
       "has_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_small_blimp": {
+    "criteria": {
+      "location0": "2026-05-23 23:37:40 +0800"
     },
     "done": true
   },
@@ -2476,6 +3066,12 @@
   "cold_sweat:root": {
     "criteria": {
       "requirement": "2026-05-23 21:31:33 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/jungle_dried_corn_fence": {
+    "criteria": {
+      "jungle_dried_corn_fence": "2026-05-24 19:30:29 +0800"
     },
     "done": true
   },
@@ -2515,15 +3111,21 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/bookshelf/oak": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.aesthetic/ribbon_bow_yellow": {
     "criteria": {
       "yellow_bow": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/bookshelf/oak": {
+  "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_flint": "2026-05-24 21:08:08 +0800"
     },
     "done": true
   },
@@ -2551,9 +3153,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/birch_sign_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "twilightforest:recipes/twilightforest/wood/spruce_banister": {
     "criteria": {
       "has_item": "2026-05-23 23:40:50 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "rice": "2026-05-24 20:28:53 +0800"
     },
     "done": true
   },
@@ -2590,6 +3204,12 @@
   "farmersdelight:recipes/misc/gold_nugget_from_blasting_knife": {
     "criteria": {
       "has_golden_knife": "2026-05-23 22:07:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -2641,6 +3261,12 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.aesthetic/jungle_knife_block": {
+    "criteria": {
+      "jungle_knife_block": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/shelf2/crimson": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -2653,7 +3279,25 @@
     },
     "done": true
   },
+  "biomebackport:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-05-24 20:21:39 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/beef_patty_from_smoking": {
+    "criteria": {
+      "beef_patty": "2026-05-24 22:26:13 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinpile_diamond_from_block": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/coin_mint/coin_mint/melt_coin_iron": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
@@ -2665,15 +3309,15 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/coin_mint/coin_mint/melt_coin_iron": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
       "has_salmon": "2026-05-23 22:03:28 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_greenwood_pub": {
+    "criteria": {
+      "location0": "2026-05-24 22:14:56 +0800"
     },
     "done": true
   },
@@ -2713,9 +3357,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/spruce_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-05-24 20:21:39 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.upgrades/upgrades/speed_upgrade_4": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/twilightforest/wood/birch_banister": {
+    "criteria": {
+      "has_item": "2026-05-24 22:04:44 +0800"
     },
     "done": true
   },
@@ -2755,9 +3411,33 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/balustrade_andesite_bridge": {
+    "criteria": {
+      "has_planks": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.items/omelette_mix_veg": {
     "criteria": {
       "Recipes": "2026-05-23 22:05:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/crafting_blueprint": {
+    "criteria": {
+      "has_item": "2026-05-24 20:03:15 +0800"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/decomposing/flint_decomposing": {
+    "criteria": {
+      "has_flint": "2026-05-24 21:08:08 +0800"
     },
     "done": true
   },
@@ -2779,9 +3459,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/small_tuff_bricks_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-05-23 23:00:47 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/andesite_pillar_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -2809,6 +3501,18 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/small_andesite_brick_wall_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/red": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/copper_bars_from_ingots_copper_stonecutting": {
     "criteria": {
       "has_ingots_copper": "2026-05-23 22:12:11 +0800"
@@ -2818,12 +3522,6 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2026-05-23 23:40:50 +0800"
-    },
-    "done": true
-  },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/red": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -2851,6 +3549,12 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.items/meatloaf": {
+    "criteria": {
+      "meatloaf": "2026-05-24 22:26:13 +0800"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/diamond_knife": {
     "criteria": {
       "has_diamond": "2026-05-24 00:22:54 +0800"
@@ -2860,6 +3564,12 @@
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/purple": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-05-24 21:39:33 +0800"
     },
     "done": true
   },
@@ -2881,9 +3591,21 @@
     },
     "done": true
   },
+  "extradelight:recipes/misc/mortar/white_dye": {
+    "criteria": {
+      "Recipes": "2026-05-24 20:57:29 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/shelf2/dark_oak": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-05-24 19:46:18 +0800"
     },
     "done": true
   },
@@ -2896,6 +3618,12 @@
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -2917,6 +3645,12 @@
     },
     "done": true
   },
+  "fruitsdelight:recipes/fruitsdelight.fruits_delight/pear_crate": {
+    "criteria": {
+      "has_pear": "2026-05-24 20:25:28 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:currency/myfirstpenny": {
     "criteria": {
       "coin": "2026-05-23 21:52:23 +0800"
@@ -2929,9 +3663,15 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_magenta": {
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_chest_boat_from_dark_oak_planks_woodcutting": {
     "criteria": {
-      "magenta_bow": "2026-05-23 23:04:30 +0800"
+      "give_recipe": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -2941,9 +3681,39 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_magenta": {
+    "criteria": {
+      "magenta_bow": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2026-05-24 21:01:41 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2026-05-24 20:28:53 +0800"
+    },
+    "done": true
+  },
   "biomancy:recipes/biomancy/decomposing/diamond_decomposing": {
     "criteria": {
       "has_diamond": "2026-05-24 00:22:54 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/chest_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_cyan": {
+    "criteria": {
+      "cyan_bow": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
@@ -2953,9 +3723,9 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_cyan": {
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_trapdoor_from_dark_oak_planks_woodcutting": {
     "criteria": {
-      "cyan_bow": "2026-05-23 23:04:30 +0800"
+      "give_recipe": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -2989,15 +3759,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/crafting_table_from_spruce_slab_woodcutting": {
+  "fruitsdelight:recipes/fruitsdelight.fruits_delight/baked_pear_from_pear_smoking": {
     "criteria": {
-      "give_recipe": "2026-05-23 23:40:50 +0800"
+      "has_pear": "2026-05-24 20:25:28 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.items/mortar/corn_meal": {
+    "criteria": {
+      "Recipes": "2026-05-24 21:33:27 +0800"
     },
     "done": true
   },
   "lightmanscurrency:recipes/lightmanscurrency.upgrades/upgrades/hopper_upgrade": {
     "criteria": {
       "money": "2026-05-23 21:52:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/crafting_table_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-23 23:40:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -3025,9 +3813,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/crafting_table_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
       "has_mutton": "2026-05-23 23:04:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -3067,15 +3867,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+  "minecraft:recipes/woodcutting/jungle/jungle_fence_gate_from_jungle_slab_woodcutting": {
     "criteria": {
-      "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
+      "give_recipe": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
   "lightmanscurrency:recipes/misc/network/item_network_trader_4": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/barrel_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
@@ -3103,15 +3915,33 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/misc/network/item_network_trader_1": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2026-05-24 00:19:13 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/misc/network/item_network_trader_1": {
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_trapdoor_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_pressure_plate_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -3127,9 +3957,21 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/cookie_decomposing": {
+    "criteria": {
+      "has_cookie": "2026-05-24 21:44:47 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2026-05-23 21:33:25 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/kinetics/light_gray_seat": {
+    "criteria": {
+      "has_wool": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
@@ -3139,9 +3981,9 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/crafting/kinetics/light_gray_seat": {
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
-      "has_wool": "2026-05-23 23:04:30 +0800"
+      "has_glass": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -3217,13 +4059,43 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/birch_boat_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/vegetable_soup": {
     "criteria": {
       "has_any_ingredient": "2026-05-23 22:47:16 +0800"
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/rice_bag": {
+    "criteria": {
+      "has_rice": "2026-05-24 20:28:53 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/coin_mint/coin_mint/mint_coin_emerald": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/stove": {
+    "criteria": {
+      "has_campfire": "2026-05-24 21:01:14 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/cyan": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
@@ -3235,9 +4107,9 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/cyan": {
+  "biomancy:recipes/biomancy/decomposing/tropical_fish_decomposing": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_tropical_fish": "2026-05-24 21:06:01 +0800"
     },
     "done": true
   },
@@ -3265,6 +4137,12 @@
     },
     "done": true
   },
+  "lootr:1cart": {
+    "criteria": {
+      "opened_cart": "2026-05-24 20:28:48 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.items/golden_apple_to_block": {
     "criteria": {
       "Recipes": "2026-05-23 23:20:59 +0800"
@@ -3286,6 +4164,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2026-05-24 00:24:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_planks_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
     },
     "done": true
   },
@@ -3349,6 +4233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-05-24 21:11:08 +0800"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/cut_tuff_bricks_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-05-23 23:00:47 +0800"
@@ -3367,15 +4257,33 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/andesite_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/iron_bridge": {
     "criteria": {
       "has_planks": "2026-05-23 22:05:55 +0800"
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/bone_meal_decomposing": {
+    "criteria": {
+      "has_bone_meal": "2026-05-24 20:57:29 +0800"
+    },
+    "done": true
+  },
   "biomancy:recipes/biomancy/decomposing/forge_seeds_decomposing": {
     "criteria": {
       "has_seeds": "2026-05-23 22:05:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-05-24 20:21:39 +0800"
     },
     "done": true
   },
@@ -3397,6 +4305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/birch_fence_gate_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/cooking/vegetable_noodles": {
     "criteria": {
       "has_any_ingredient": "2026-05-23 21:34:04 +0800"
@@ -3415,6 +4329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/birch/birch_chest_boat_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "biomancy:recipes/biomancy/digesting/nutrient_paste_from_digesting_average_food": {
     "criteria": {
       "has_food": "2026-05-23 21:31:33 +0800"
@@ -3427,9 +4347,33 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/coarse_dirt_decomposing": {
+    "criteria": {
+      "has_coarse_dirt": "2026-05-24 21:54:10 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.machines/portable_atm_swap": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/glass_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_door_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -3454,6 +4398,12 @@
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2026-05-23 23:20:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-05-24 20:21:39 +0800"
     },
     "done": true
   },
@@ -3499,15 +4449,39 @@
     },
     "done": true
   },
+  "extradelight:recipes/brewing/mortar/blaze_powder": {
+    "criteria": {
+      "Recipes": "2026-05-24 20:57:29 +0800"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/crafting/kinetics/red_seat": {
     "criteria": {
       "has_wool": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/wither_rose_decomposing": {
+    "criteria": {
+      "has_wither_rose": "2026-05-24 20:23:31 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2026-05-23 21:33:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -3541,6 +4515,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/shelf2/spruce": {
     "criteria": {
       "money": "2026-05-23 21:52:24 +0800"
@@ -3571,6 +4551,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/jungle/jungle_stairs_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/dye_pink": {
     "criteria": {
       "money": "2026-05-23 21:52:24 +0800"
@@ -3583,6 +4569,18 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2026-05-24 22:15:08 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_button_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2026-05-23 22:46:44 +0800"
@@ -3592,6 +4590,12 @@
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2026-05-24 00:22:54 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_andesite_brick_stairs_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -3612,11 +4616,20 @@
       "minecraft:pillager": "2026-05-23 23:29:37 +0800",
       "minecraft:skeleton": "2026-05-23 23:22:42 +0800",
       "minecraft:spider": "2026-05-23 23:16:58 +0800",
+      "minecraft:witch": "2026-05-24 22:34:40 +0800",
+      "minecraft:enderman": "2026-05-24 20:15:16 +0800",
+      "minecraft:silverfish": "2026-05-24 21:10:42 +0800",
       "minecraft:zombie": "2026-05-23 21:49:58 +0800"
     },
     "done": false
   },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/washing": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/coin_mint/coin_mint/melt_coin_copper": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
@@ -3634,9 +4647,15 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/coin_mint/coin_mint/melt_coin_copper": {
+  "minecraft:story/enchant_item": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "enchanted_item": "2026-05-24 22:35:11 +0800"
+    },
+    "done": true
+  },
+  "biomancy:recipes/biomancy/decomposing/porkchop_decomposing": {
+    "criteria": {
+      "has_porkchop": "2026-05-23 21:38:09 +0800"
     },
     "done": true
   },
@@ -3652,27 +4671,21 @@
     },
     "done": true
   },
-  "biomancy:recipes/biomancy/decomposing/porkchop_decomposing": {
-    "criteria": {
-      "has_porkchop": "2026-05-23 21:38:09 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/brown": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
-  "farmersdelight:recipes/farmersdelight/cooking_pot": {
-    "criteria": {
-      "has_iron_ingot": "2026-05-23 22:05:55 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/redstone_block": {
     "criteria": {
       "has_redstone": "2026-05-23 21:53:42 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2026-05-23 22:05:55 +0800"
     },
     "done": true
   },
@@ -3688,19 +4701,31 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/bookshelf/crimson": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/misc/upgrades/coin_chest_magnet_upgrade_3": {
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_fence_from_dark_oak_planks_woodcutting": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "give_recipe": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/misc/upgrades/coin_chest_magnet_upgrade_4": {
+  "mcwbridges:recipes/glass_bridge": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/misc/upgrades/coin_chest_magnet_upgrade_3": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
@@ -3712,9 +4737,21 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/misc/upgrades/coin_chest_magnet_upgrade_4": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/lime": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/misc/mortar/brown_dye": {
+    "criteria": {
+      "Recipes": "2026-05-24 21:48:35 +0800"
     },
     "done": true
   },
@@ -3742,24 +4779,37 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/cut_tuff_stairs_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2026-05-23 23:00:47 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2026-05-23 21:33:25 +0800"
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_tuff_stairs_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2026-05-23 23:00:47 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2026-05-24 21:22:52 +0800"
+    },
+    "done": true
+  },
   "extradelight:meals": {
     "criteria": {
       "JERKY": "2026-05-23 22:31:59 +0800",
-      "SAUSAGE_ROLL": "2026-05-23 22:32:09 +0800"
+      "SAUSAGE_ROLL": "2026-05-23 22:32:09 +0800",
+      "RICEBALL": "2026-05-24 22:24:56 +0800"
     },
     "done": false
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-05-24 20:00:38 +0800"
+    },
+    "done": true
   },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/mangrove/black": {
     "criteria": {
@@ -3770,6 +4820,12 @@
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/brown": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/chest_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
@@ -3803,6 +4859,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_button_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/dye_cyan": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -3824,6 +4886,12 @@
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2026-05-24 19:33:12 +0800"
     },
     "done": true
   },
@@ -3851,6 +4919,30 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/maggot_decomposing": {
+    "criteria": {
+      "has_maggot": "2026-05-24 21:33:52 +0800"
+    },
+    "done": true
+  },
+  "bygonenether:root": {
+    "criteria": {
+      "entered_nether": "2026-05-24 20:17:43 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/misc/wither_black": {
+    "criteria": {
+      "Recipes": "2026-05-24 20:23:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_sign_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2026-05-23 22:05:56 +0800"
@@ -3866,6 +4958,12 @@
   "create:recipes/create.base/crafting/kinetics/steam_engine": {
     "criteria": {
       "has_item": "2026-05-23 22:12:11 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -3896,6 +4994,18 @@
   "goety:goety/root": {
     "criteria": {
       "tick": "2026-05-23 21:31:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/jungle/jungle_trapdoor_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_fence_gate_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -3935,6 +5045,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/beef_patty": {
+    "criteria": {
+      "beef_patty": "2026-05-24 22:26:13 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2026-05-23 23:00:47 +0800"
@@ -3947,9 +5063,9 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/crafting/kinetics/magenta_seat": {
+  "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinblock_netherite_from_pile": {
     "criteria": {
-      "has_wool": "2026-05-23 23:04:30 +0800"
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -3959,15 +5075,27 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinblock_netherite_from_pile": {
+  "create:recipes/create.palettes/crafting/kinetics/magenta_seat": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_wool": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_iron_ingot": "2026-05-23 22:05:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-05-24 20:21:39 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -3989,6 +5117,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2026-05-24 20:23:31 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/jungle_spice_rack_full": {
+    "criteria": {
+      "jungle_spice_rack_full": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2026-05-23 21:50:17 +0800"
@@ -4007,15 +5147,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_concrete_powder": {
+  "minecraft:recipes/woodcutting/jungle/jungle_door_from_jungle_slab_woodcutting": {
     "criteria": {
-      "has_sand": "2026-05-23 23:00:47 +0800"
+      "give_recipe": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/cyan": {
     "criteria": {
       "money": "2026-05-23 21:52:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-05-23 23:00:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -4034,6 +5186,12 @@
   "minecraft:recipes/decorations/cobbled_deepslate_wall": {
     "criteria": {
       "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -4061,6 +5219,12 @@
     },
     "done": true
   },
+  "repurposed_structures:mansions": {
+    "criteria": {
+      "in_mansion_birch": "2026-05-24 22:40:31 +0800"
+    },
+    "done": false
+  },
   "create:recipes/create.base/crafting/kinetics/empty_blaze_burner": {
     "criteria": {
       "has_item": "2026-05-23 22:05:56 +0800"
@@ -4085,15 +5249,21 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
+  "fruitsdelight:recipes/fruitsdelight.fruits_delight/apple_crate": {
     "criteria": {
-      "minecraft:zombie": "2026-05-23 21:49:58 +0800"
+      "has_apple": "2026-05-24 21:22:52 +0800"
     },
     "done": true
   },
   "lootr:root": {
     "criteria": {
       "always_true": "2026-05-23 21:31:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-05-23 21:49:58 +0800"
     },
     "done": true
   },
@@ -4109,13 +5279,13 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/red": {
+  "minecraft:recipes/woodcutting/jungle/jungle_chest_boat_from_jungle_slab_woodcutting": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "give_recipe": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/spruce/light_gray": {
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/red": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
@@ -4124,6 +5294,12 @@
   "chestcavity:recipes/tools/chest_opener": {
     "criteria": {
       "has_iron_ingot": "2026-05-23 21:31:33 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/spruce/light_gray": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -4151,10 +5327,23 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/raw_iron_decomposing": {
+    "criteria": {
+      "has_raw_iron": "2026-05-24 19:33:12 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.items/apple_crisp_feast": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 21:22:52 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2026-05-23 23:32:58 +0800",
       "minecraft:taiga": "2026-05-23 23:53:13 +0800",
+      "minecraft:sunflower_plains": "2026-05-24 21:40:50 +0800",
       "minecraft:birch_forest": "2026-05-23 21:40:09 +0800",
       "minecraft:windswept_hills": "2026-05-23 23:18:30 +0800",
       "minecraft:beach": "2026-05-23 21:31:53 +0800",
@@ -4162,13 +5351,17 @@
       "minecraft:lukewarm_ocean": "2026-05-23 22:13:53 +0800",
       "minecraft:river": "2026-05-23 21:53:31 +0800",
       "minecraft:dripstone_caves": "2026-05-24 00:11:56 +0800",
+      "minecraft:swamp": "2026-05-24 22:36:37 +0800",
       "minecraft:forest": "2026-05-23 22:16:24 +0800",
+      "minecraft:lush_caves": "2026-05-24 20:54:54 +0800",
       "minecraft:windswept_forest": "2026-05-23 23:53:21 +0800",
       "minecraft:jungle": "2026-05-23 22:48:25 +0800",
       "minecraft:ocean": "2026-05-23 21:53:24 +0800",
       "minecraft:old_growth_spruce_taiga": "2026-05-23 23:37:22 +0800",
       "minecraft:deep_lukewarm_ocean": "2026-05-23 22:28:44 +0800",
+      "minecraft:flower_forest": "2026-05-24 21:15:11 +0800",
       "minecraft:old_growth_birch_forest": "2026-05-23 22:03:56 +0800",
+      "minecraft:meadow": "2026-05-24 21:26:14 +0800",
       "minecraft:plains": "2026-05-23 23:17:30 +0800"
     },
     "done": false
@@ -4188,6 +5381,12 @@
   "biomancy:recipes/biomancy/decomposing/salmon_decomposing": {
     "criteria": {
       "has_salmon": "2026-05-23 22:03:28 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/small_andesite_brick_slab_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -4212,6 +5411,12 @@
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/light_gray": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/beef_patty_from_campfire_cooking": {
+    "criteria": {
+      "beef_patty": "2026-05-24 22:26:13 +0800"
     },
     "done": true
   },
@@ -4245,9 +5450,39 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/dark_oak_rail_bridge": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/chest_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/dye_magenta": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "beetroots": "2026-05-24 19:45:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 21:48:35 +0800"
     },
     "done": true
   },
@@ -4263,15 +5498,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/diamond_block": {
+  "twilightforest:recipes/twilightforest/wood/jungle_banister": {
     "criteria": {
-      "has_diamond": "2026-05-24 00:22:54 +0800"
+      "has_item": "2026-05-24 21:52:39 +0800"
     },
     "done": true
   },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/display_case": {
     "criteria": {
       "money": "2026-05-23 21:52:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2026-05-24 00:22:54 +0800"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_ghost": {
+    "criteria": {
+      "killed_fire_dragon": "2026-05-24 20:24:14 +0800"
     },
     "done": true
   },
@@ -4311,15 +5558,15 @@
     },
     "done": true
   },
-  "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
-    "criteria": {
-      "has_item": "2026-05-23 22:12:11 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/wallet/upgrade_wallet_copper_to_wallet_gold": {
     "criteria": {
       "coin": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2026-05-23 22:12:11 +0800"
     },
     "done": true
   },
@@ -4353,6 +5600,12 @@
     },
     "done": true
   },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2026-05-24 22:22:52 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/black": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -4362,6 +5615,30 @@
   "extradelight:recipes/extradelight.items/offset_spatula_gold": {
     "criteria": {
       "Recipes": "2026-05-23 23:20:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2026-05-24 21:48:35 +0800"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/fruitsdelight.fruits_delight/pear_juice": {
+    "criteria": {
+      "has_pear": "2026-05-24 20:25:28 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -4431,9 +5708,21 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.items/apple_cookie": {
+    "criteria": {
+      "has_any_ingredient": "2026-05-24 21:22:52 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -4461,9 +5750,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/candle": {
+  "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
-      "has_string": "2026-05-23 22:46:44 +0800"
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -4473,15 +5762,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/golden_hoe": {
+  "minecraft:recipes/decorations/candle": {
     "criteria": {
-      "has_gold_ingot": "2026-05-23 23:20:56 +0800"
+      "has_string": "2026-05-23 22:46:44 +0800"
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_blue": {
+  "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
-      "blue_bow": "2026-05-23 23:04:30 +0800"
+      "has_gold_ingot": "2026-05-23 23:20:56 +0800"
     },
     "done": true
   },
@@ -4494,6 +5783,12 @@
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2026-05-23 22:18:24 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_blue": {
+    "criteria": {
+      "blue_bow": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
@@ -4545,6 +5840,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-05-24 21:08:07 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coin_diamond_from_pile": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -4578,9 +5879,24 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "porkchop": "2026-05-23 22:01:52 +0800",
-      "bread": "2026-05-23 22:48:35 +0800"
+      "tropical_fish": "2026-05-24 21:06:07 +0800",
+      "apple": "2026-05-24 21:23:03 +0800",
+      "potato": "2026-05-24 20:00:59 +0800",
+      "mutton": "2026-05-24 20:48:07 +0800",
+      "pufferfish": "2026-05-24 21:05:55 +0800",
+      "bread": "2026-05-23 22:48:35 +0800",
+      "salmon": "2026-05-24 20:00:53 +0800",
+      "beetroot": "2026-05-24 19:45:26 +0800",
+      "cod": "2026-05-24 20:00:46 +0800",
+      "carrot": "2026-05-24 19:46:44 +0800"
     },
     "done": false
+  },
+  "create:recipes/create.palettes/vertical_framed_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
   },
   "lightmanscurrency:recipes/coin_mint/coin_mint/mint_coin_gold": {
     "criteria": {
@@ -4597,6 +5913,12 @@
   "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinblock_iron_from_pile": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-05-24 20:00:38 +0800"
     },
     "done": true
   },
@@ -4627,6 +5949,18 @@
   "extradelight:recipes/extradelight.aesthetic/oak_spice_rack_full": {
     "criteria": {
       "oak_spice_rack_full": "2026-05-24 00:08:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/barrel_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -4678,15 +6012,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/chest_from_spruce_slab_woodcutting": {
+  "mcwbridges:recipes/glass_bridge_stair": {
     "criteria": {
-      "give_recipe": "2026-05-23 23:40:50 +0800"
+      "has_planks": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/layered_andesite_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/chest_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-23 23:40:50 +0800"
     },
     "done": true
   },
@@ -4711,6 +6057,18 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2026-05-23 22:18:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-05-24 21:08:07 +0800"
     },
     "done": true
   },
@@ -4744,21 +6102,39 @@
     },
     "done": true
   },
+  "cold_sweat:survival_tactics": {
+    "criteria": {
+      "freezing_on_fire": "2026-05-24 21:40:27 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.items/mortar/flour": {
+    "criteria": {
+      "Recipes": "2026-05-24 20:57:29 +0800"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/fried_egg_from_campfire_cooking": {
     "criteria": {
       "fried_egg": "2026-05-23 22:05:17 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/cyan": {
+  "minecraft:recipes/transportation/oak_chest_boat": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_boat": "2026-05-24 20:21:39 +0800"
     },
     "done": true
   },
   "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_hay_block": "2026-05-23 21:34:19 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/cyan": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -4828,6 +6204,12 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/raw_copper_decomposing": {
+    "criteria": {
+      "has_raw_copper": "2026-05-24 20:37:09 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/extradelight.aesthetic/ribbon_bow_lime": {
     "criteria": {
       "lime_bow": "2026-05-23 23:04:30 +0800"
@@ -4864,9 +6246,15 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/oak_spice_rack": {
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
-      "oak_spice_rack": "2026-05-24 00:08:17 +0800"
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/dye_light_gray": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -4876,9 +6264,9 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/dye_light_gray": {
+  "extradelight:recipes/extradelight.aesthetic/oak_spice_rack": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "oak_spice_rack": "2026-05-24 00:08:17 +0800"
     },
     "done": true
   },
@@ -4894,15 +6282,15 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_purple": {
+  "extradelight:recipes/extradelight.aesthetic/spruce_dried_corn_fence": {
     "criteria": {
-      "purple_bow": "2026-05-23 23:04:30 +0800"
+      "spruce_dried_corn_fence": "2026-05-24 19:47:38 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate": {
+  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_purple": {
     "criteria": {
-      "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
+      "purple_bow": "2026-05-23 23:04:30 +0800"
     },
     "done": true
   },
@@ -4912,9 +6300,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2026-05-23 22:00:26 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/cut_andesite_brick_slab_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "extradelight:recipes/misc/red_beet": {
     "criteria": {
       "Recipes": "2026-05-23 22:47:16 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/birch_window": {
+    "criteria": {
+      "has_ingredient": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -4927,6 +6333,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -4960,6 +6372,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2026-05-24 20:21:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/vending_machine/dye_cyan": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -4969,6 +6393,12 @@
   "create:recipes/create.palettes/tuff_pillar_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2026-05-23 23:00:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
     },
     "done": true
   },
@@ -4984,15 +6414,15 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.upgrades/upgrades/item_capacity_upgrade_2": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2026-05-23 21:37:55 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.upgrades/upgrades/item_capacity_upgrade_2": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -5026,7 +6456,19 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/cut_andesite_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/vending_machine/dye_black": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/purple": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
     },
@@ -5038,17 +6480,17 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/purple": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2026-05-23 23:04:30 +0800"
     },
     "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "beetroot": "2026-05-24 19:45:37 +0800"
+    },
+    "done": false
   },
   "lightmanscurrency:recipes/coin_mint/coin_mint/melt_coin_gold": {
     "criteria": {
@@ -5104,12 +6546,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/green_wool": {
-    "criteria": {
-      "has_white_wool": "2026-05-23 23:04:30 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.coins/coins/coinpile_iron_from_coin": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800",
@@ -5117,9 +6553,15 @@
     },
     "done": true
   },
-  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_black": {
+  "minecraft:recipes/building_blocks/green_wool": {
     "criteria": {
-      "black_bow": "2026-05-23 23:04:30 +0800"
+      "has_white_wool": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_birch_bridge": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -5129,15 +6571,21 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.aesthetic/ribbon_bow_black": {
+    "criteria": {
+      "black_bow": "2026-05-23 23:04:30 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2026-05-24 00:22:54 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/misc/auction_stand/acacia": {
+  "extradelight:recipes/food/cookie": {
     "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
+      "has_any_ingredient": "2026-05-24 21:48:35 +0800"
     },
     "done": true
   },
@@ -5147,9 +6595,21 @@
     },
     "done": true
   },
+  "lightmanscurrency:recipes/misc/auction_stand/acacia": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_stone_bricks": "2026-05-24 00:19:13 +0800"
+    },
+    "done": true
+  },
+  "fruitsdelight:recipes/fruitsdelight.fruits_delight/baked_pear_from_pear_campfire": {
+    "criteria": {
+      "has_pear": "2026-05-24 20:25:28 +0800"
     },
     "done": true
   },
@@ -5180,6 +6640,18 @@
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/oak/magenta": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_button_from_birch_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 22:04:44 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_slab_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -5219,9 +6691,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/freezer/pink": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2026-05-24 20:26:18 +0800"
     },
     "done": true
   },
@@ -5237,15 +6721,15 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.machines/terminal": {
-    "criteria": {
-      "money": "2026-05-23 21:52:24 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/dye_red": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.machines/terminal": {
+    "criteria": {
+      "money": "2026-05-23 21:52:24 +0800"
     },
     "done": true
   },
@@ -5255,21 +6739,27 @@
     },
     "done": true
   },
+  "extradelight:recipes/extradelight.items/candy_bowl": {
+    "criteria": {
+      "Recipes": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2026-05-23 21:42:16 +0800"
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/light_gray": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/farmersdelight/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2026-05-23 21:50:17 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/birch/light_gray": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -5351,6 +6841,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/jungle/crafting_table_from_jungle_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 21:52:39 +0800"
+    },
+    "done": true
+  },
   "graveyard:graveyard/corruption": {
     "criteria": {
       "corruption": "2026-05-23 21:51:35 +0800"
@@ -5363,9 +6859,27 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-05-24 20:03:15 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.items/mortar_andesite": {
+    "criteria": {
+      "Recipes": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
   "modulargolems:recipes/modulargolems.golems/barbaric_vanguard_chestplate": {
     "criteria": {
       "has_diamond": "2026-05-24 00:22:54 +0800"
+    },
+    "done": true
+  },
+  "extradelight:recipes/extradelight.aesthetic/birch_knife_block": {
+    "criteria": {
+      "birch_knife_block": "2026-05-24 22:04:44 +0800"
     },
     "done": true
   },
@@ -5382,15 +6896,21 @@
     },
     "done": false
   },
-  "minecraft:recipes/redstone/repeater": {
+  "create:recipes/create.palettes/dark_oak_window": {
     "criteria": {
-      "has_redstone_torch": "2026-05-23 23:38:49 +0800"
+      "has_ingredient": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2026-05-23 21:53:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-05-23 23:38:49 +0800"
     },
     "done": true
   },
@@ -5406,6 +6926,36 @@
     },
     "done": true
   },
+  "mcwbridges:recipes/andesite_bridge_pier": {
+    "criteria": {
+      "has_planks": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/tiled_glass_from_glass_colorless_stonecutting": {
+    "criteria": {
+      "has_glass_colorless": "2026-05-24 19:40:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-05-24 21:39:32 +0800"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_cut_andesite_wall_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2026-05-24 20:26:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/light_blue": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
@@ -5418,15 +6968,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
-    "criteria": {
-      "has_smooth_quartz": "2026-05-23 23:45:07 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/large_vending_machine/dye_green": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2026-05-23 23:45:07 +0800"
     },
     "done": true
   },
@@ -5466,9 +7016,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_the_recipe": "2026-05-24 20:05:20 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_door_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2026-05-23 23:40:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_chest_boat_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -5520,6 +7082,18 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/pufferfish_decomposing": {
+    "criteria": {
+      "has_pufferfish": "2026-05-24 20:12:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:41:00 +0800"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/stone_brick_bridge": {
     "criteria": {
       "has_planks": "2026-05-24 00:19:13 +0800"
@@ -5544,15 +7118,15 @@
     },
     "done": true
   },
-  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/vending_machine/dye_green": {
-    "criteria": {
-      "money": "2026-05-23 21:52:23 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2026-05-23 21:37:55 +0800"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/lightmanscurrency.trading/traders/vending_machine/dye_green": {
+    "criteria": {
+      "money": "2026-05-23 21:52:23 +0800"
     },
     "done": true
   },
@@ -5604,9 +7178,21 @@
     },
     "done": true
   },
+  "biomancy:recipes/biomancy/decomposing/forge_leather_decomposing": {
+    "criteria": {
+      "has_leather": "2026-05-24 20:58:39 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
     "criteria": {
       "has_beef": "2026-05-23 22:31:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2026-05-24 19:40:01 +0800"
     },
     "done": true
   },
@@ -5634,9 +7220,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_pressure_plate_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:40:01 +0800"
+    },
+    "done": true
+  },
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/acacia/light_blue": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/birch/birch_boat_from_birch_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 19:41:00 +0800"
     },
     "done": true
   },
@@ -5646,15 +7244,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2026-05-24 00:08:17 +0800"
-    },
-    "done": true
-  },
   "lightmanscurrency:recipes/ticket_machine/ticket_station/golden_ticket": {
     "criteria": {
       "ticket_material": "2026-05-23 23:20:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2026-05-24 00:08:17 +0800"
     },
     "done": true
   },
@@ -5667,6 +7265,12 @@
   "lightmanscurrency:recipes/lightmanscurrency.trading/traders/card_display/crimson/pink": {
     "criteria": {
       "money": "2026-05-23 21:52:23 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2026-05-24 20:57:29 +0800"
     },
     "done": true
   },

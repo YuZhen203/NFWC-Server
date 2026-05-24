@@ -4,5 +4,11 @@
     "name": "ClearWind_Yu",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6602c6f5-2dd4-3f8b-945b-6cedc733f4c3",
+    "name": "FunnyPocket",
+    "level": 2,
+    "bypassesPlayerLimit": false
   }
 ]
